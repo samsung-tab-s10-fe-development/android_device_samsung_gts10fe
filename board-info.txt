@@ -1,0 +1,1 @@
+require board=s5e8855|gts10fe|SM-X710|SM-X716|SM-X720
