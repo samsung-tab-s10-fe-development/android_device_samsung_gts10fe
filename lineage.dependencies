@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_device_samsung_gts10exynos-common",
+    "target_path": "device/samsung/gts10exynos-common"
+  },
+  {
     "repository": "android_kernel_samsung_gts10fe",
     "target_path": "kernel/samsung/gts10fe"
   }

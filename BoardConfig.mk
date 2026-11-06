@@ -70,9 +70,9 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# Vendor sepolicy (prebuilt CIL from stock ROM)
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-BOARD_VENDOR_SEPOLICY := $(DEVICE_PATH)/sepolicy/vendor/vendor_sepolicy.cil
+# Vendor sepolicy (prebuilt CIL from stock ROM, shared across Exynos 1580 GTS 10 family)
+BOARD_VENDOR_SEPOLICY_DIRS += device/samsung/gts10exynos-common/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY := device/samsung/gts10exynos-common/sepolicy/vendor/vendor_sepolicy.cil
 
 # Inherit the proprietary files
 include vendor/samsung/gts10fe/BoardConfigVendor.mk

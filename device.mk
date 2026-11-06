@@ -64,5 +64,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Inherit the common device (Exynos 1580 shared)
+$(call inherit-product, device/samsung/gts10exynos-common/device.mk)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/gts10fe/gts10fe-vendor.mk)

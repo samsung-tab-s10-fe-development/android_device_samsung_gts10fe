@@ -1,12 +1,7 @@
-# Unpinned blobs from gts10fewifixx-user 16 BP4A.251205.006 X520XXSBCZI2 release-keys
-
-# Audio
 vendor/lib64/hw/audio.primary.default.so|65391fe21b29f168adac838ef40d6ebb616e9227
 vendor/lib64/hw/audio.r_submix.default.so|c39e3caf7dcbb2f187e1fbefa56aade326fa7986
 vendor/lib64/hw/audio.usb.default.so|8b9fd8f3cf3bd0970d5eef2d731b4044d3686ce1
 vendor/lib64/libalsautils.so|d775e23a1cb57c5f63450da3361b797d2e968a59
-
-# Audio (FX modules)
 vendor/lib64/soundfx/libaudioeffectoffload.so|0612f4b7ca86e58a92c4b4e7d120e045e429edc6
 vendor/lib64/soundfx/libaudiosaplus_sec.so|9dc01e5731d86c9724e0939e55c251934fb9e8b5
 vendor/lib64/soundfx/libaudiosaplus_sec_aidl.so|cc0a78e0ad96e387ba95a510c3a5f24632e1919a
@@ -38,8 +33,6 @@ vendor/lib64/libspatializerparamstorage.so|3b3053b5cd64ab6d8885e4068f0f14ced1543
 vendor/lib64/libtinyalsav2.so|a7d50414b5fc79cfa79e8e4fcc97fcb7de4ca58e
 vendor/lib64/libvibratorutils.so|bb6d858829070c0ab5fb0efbfabc5a5739ccc6d0
 vendor/lib64/spatializer-aidl-cpp.so|6f14004c8242d4318b04b72a87fcc3127a0e74f9
-
-# Audio configs
 system/etc/audio_effects.xml|3d98e3b52d9b5d8623cb82df57222feabe39f374
 system/etc/audio_effects_common.conf|55cac0d0ba1506ed05144258c3c14e143dbca0af
 vendor/etc/audio_effects.xml|7c51bbec60b4769162e2205dd1e24606ecba7edc
@@ -61,24 +54,13 @@ vendor/etc/r_submix_audio_policy_configuration.xml|b5176a29f8ed6634b967e1bba2f12
 vendor/etc/situation_audio_policy_volumes_sec.xml|109c52bc17b3622b5fcc889d534eb592564deb8a
 vendor/etc/sound_trigger_info.xml|4c74b9a60976feb935d62435836796312fb25081
 vendor/etc/usb_audio_policy_configuration.xml|1123a3a29c1fd176d14417861dbf51ee893ef523
-
-# Bluetooth
 vendor/bin/hw/android.hardware.bluetooth-service.default|0e69daab71b9db7a482545dd632c3163cf586514
 vendor/lib64/libbt-vendor.so|840c15d2985fd7b9094351ebc7297a5fb9e3a521
-
-# Bluetooth (A2DP)
 vendor/lib64/android.hardware.bluetooth.audio-impl.so|eaa6639cab0759e215a4852fd3a4c4ae18869f43
 vendor/lib64/libaconfig_storage_read_api_cc.so|f75abec8438fc69265b12989d4ae6b962f3f7ffd
 vendor/lib64/libbluetooth_audio_session_aidl.so|5d5b9da722d9a0e5426283ebf16b7aebed72f719
 vendor/lib64/libflatbuffers-cpp.so|199363624d9e54e4ddcf4ae1e1c5fc8bcc5ce035
 vendor/lib64/server_configurable_flags.so|15872bf057a6401b688218964cf93a8b012e7883
-
-# Boot
-vendor/bin/hw/android.hardware.boot-service.exynos|4a47fbeff64640ed0512212eeccd9fe9fb2e732a
-vendor/etc/init/android.hardware.boot-service.exynos.rc|2a2001c5cb2132815e0e768c026234760ff833aa
-vendor/etc/vintf/manifest/android.hardware.boot-service.exynos.xml|0ae2f6c571c601c73d0096954e721455b42189cb
-
-# Camera
 system/lib64/libarcsoft_photoeditor.arcsoft.so|fe16faca7d7f7cf0da82f3161d2d2f93c4455c87
 system/lib64/libmpbase.so|b2a6cd38ef20c89bafbaeec08da437ab31f57ebd
 vendor/lib64/hw/camera.s5e8855.so|24de2532a4ef67055cfca777d861d5c029693728
@@ -97,18 +79,10 @@ vendor/lib64/libenn_user_driver_gpu_lib.so|95e9238b932cd559ef48e06d4d328b6d007b8
 vendor/lib64/libenn_user_driver_unified.so|3ebc0acb163d0af80efadb1dc206b8aab8132755
 vendor/lib64/libenn_user_lib.so|8b1ee480e8a953ef28aa96145ede0a4703cc022f
 vendor/lib64/libepicoperator.so|1a0b1210fe9f8ef48f3f0c69c69ed712096603a7
-vendor/lib64/libexynos_ldc.so|f4ff01ee235bdbd91fa7370595e0b87ac6fadc79
-vendor/lib64/libexynos_sensor_interface.so|68ad1b60428483e257147542c6ca24dd25c02a95
-vendor/lib64/libexynosgdc.so|eec0eea7ffef000b8b90c62228ff43220b764be6
-vendor/lib64/libexynosgraphicbuffer.so|d17132c21e32ae838f88d1b43213f72a4fe79e0e
-vendor/lib64/libexynosscaler.so|4149e7159d626213790d248741f6a7bab1dc9da8
-vendor/lib64/libexynosutils.so|7f0313e2361fb94989cc48f0d2ffb9277bb4ef2d
-vendor/lib64/libexynosv4l2.so|67837effa8535f87c5c2778ba4ce44f83a4f3e97
 vendor/lib64/libgrallocusage.so|9d0a5953afe58648c4af5d6bff506dc8bc1330c9
 vendor/lib64/libhwjpeg.so|8d8d2fce4584cde4f801510be67b10fd85c84d20
 vendor/lib64/libhwjsqz.so|e5e2a738639cfb4bd1da2e2246bc6e44dc9e5c45
 vendor/lib64/libhypervintf.so|0efa43369aa2757b78bfecf7d1871e9ba632e907
-vendor/lib64/libion_exynos.so|f1c47c184604a1c0b3752b7e85fd6e91494dc168
 vendor/lib64/libsec2lsi_conversion.so|b3cc702741cb6fd28175f1a783218133ebd67881
 vendor/lib64/libsecril-client.so|6db2bdc729f473d6a83fdb4a7a8514712edc5194
 vendor/lib64/libsemseg.so|b619fa9ce45312c9c3b53fb36610df0c09617c17
@@ -125,58 +99,32 @@ vendor/lib64/vendor.samsung.hardware.thermal-V1-ndk.so|5ea0a76dbd3836496d304655e
 vendor/lib64/vendor.samsung.hardware.thermal@1.0.so|0f662db2480bb490d307d1cc81134ed442383842
 vendor/lib64/vendor.samsung_slsi.hardware.epic-V1-ndk.so|b13f9a4996b4863662798614c447dae630f80da1
 vendor/lib64/vendor.samsung_slsi.hardware.epic@1.0.so|4641e35595132d617c14b558919552259f4e76e8
-
-# Display
-vendor/bin/hw/android.hardware.graphics.allocator-aidl-service-sgr|59749b5b0d1bc557bdf363e63b5d3f1678c86199
-vendor/bin/hw/android.hardware.graphics.composer3-service.exynos|ae6400e55b8b9a540c75a3a7033334f252af0fae
-vendor/bin/hw/android.hardware.memtrack-service.exynos|eede66393b38721b7be98faf1f83f16485d730b1
-vendor/etc/init/android.hardware.graphics.allocator-aidl-service-sgr.rc|5090a6f9930594d45222090bfae8b143b5063b34
 vendor/lib64/egl/libEGL_samsung.so|98ed38d241d6981376d6d06b3314fa964baf3932
 vendor/lib64/egl/libGLESv1_CM_samsung.so|d26d1afc5314c25538290f61b6c15ea83089edf8
 vendor/lib64/egl/libGLESv2_samsung.so|64f3293fd004fd8f7d8c150fd5a808f0c6db1c0c
 vendor/lib64/hw/gralloc.default.so|bfd45f3cdef02833d467627082752eaafdf3ff32
 vendor/lib64/hw/mapper.stableC-impl-sgr.so|ac189189841ce53c136cd8e5ea5c971af7cad03f
 vendor/lib64/hw/vulkan.samsung.so|908e89f0bfe70e18eccc5829fe992e33746920e9
-vendor/lib64/libExynosHWCService.so|55ef0a5ca61341e285654473c7e09dc4c67616b2
-vendor/lib64/libdisplayaiqe.so|d8c634d78b9c9fedbbc4f609ebbc8765da154551
-vendor/lib64/libdisplaycolor_default.so|889cccb777c02acf015ba5607538505e7f5aa5cd
-vendor/lib64/libdisplaycolorwrapper.so|37e26846d4d3e96f326babe03d15a1a919c16765
 vendor/lib64/libdrmresource.so|43261cf76ecb7b660abfe72318b9e15d3f25f948
 vendor/lib64/libeis_utils.so|c633f76b886b23596e6da583e2fb90a4278ef16e
-vendor/lib64/libexynosdisplay.so|58bb667d8d9a6b13f141d62b69629268383c9646
-vendor/lib64/libexynosgraphicbuffer_core.so|96810245252ffa5e70ea8a57a4bdac79d3814ae8
 vendor/lib64/libhdrwrapper.so|53fb46f2445b4159c2fafc5404dc9daec2c80fd7
 vendor/lib64/libsbwchelper.so|5ef0ad41a44ed2a8ea4b3a60e0d60fbad8fcea80
-
-# DRM
 vendor/apex/com.google.android.widevine.nonupdatable.apex|a35909bef639876b14831459bff5d532858267bb
 vendor/lib64/mediacas/libclearkeycasplugin.so|f7f39123239ad2165226c594dcb89d8208a9b671
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so|f470faf2b4a1b9896036269142cea29763b21d0c
 vendor/lib64/liboemcrypto.so|a842d762f0d4be0a0bd18898bbaaedf33f5cda8c
 vendor/lib64/libteecl.so|c7c174b04fc238d0e620ed9295fa63ebbd928b6f
-
-# Dumpstate
 vendor/bin/hw/android.hardware.dumpstate-service|c781a9940eb167718a84c8a6f8b8ca2433627f4d
-
-# Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper-service|88b3f3ba6b5907e6f1561ac18574d104d212f135
 vendor/etc/init/android.hardware.gatekeeper-service.rc|ff8adc96d2332ef7f626ee8d7c21ef5931ffa362
 vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.xml|2713fe0c682a1c4fbe2942600b6d49353ef3b493
 vendor/lib64/hw/gatekeeper.s5e8855.so|abe4b62f9e68278a1ca0edefa29769eb8e81e097
-
-# GNSS configs
 vendor/etc/gnss/ca.pem|2737c68e7a5f5d5b390264180e3b9582bf038f3a
 vendor/etc/gnss/deleteLogCommands|7fb90de7e27e78810cc5ab40e57577374314c93f
 vendor/etc/gnss/gps.cfg|39468b2b218325e7664cf0d2f5f1c55cb0d3f051
 vendor/etc/gnss/hardware_factors.conf|df81952496d33e3c5146684965ad4a7346432756
-
-# Light
 vendor/bin/hw/android.hardware.lights-service.samsung|28489a4d96d8421eec5fd5e0ee65f4a4a9c700bb
-
-# Local time
 vendor/lib64/hw/local_time.default.so|4e99fae76dea5704dd61c2bbc416b0cbbe129589
-
-# Media
 system/etc/seccomp_policy/mediacodec.policy|6ec1518d81f8ba1a17337f3ef4f1310be5a72d68
 system/lib64/graphicbuffersource-aidl-ndk.so|449fd0f599b9c2cba24eea6404b23c40dc3f0570
 system/lib64/libaconfig_storage_read_api_cc.so|5e967fecfe2328b730c650839892d3b3efdf690b
@@ -199,12 +147,8 @@ vendor/etc/seccomp_policy/mediacodec.policy|c30c9b2096325682aba1f5e2bb512f92b1d5
 vendor/lib64/libstagefright_aidl_bufferpool2.so|23c2d850c5012cd759c9b59a03aa528ea3379b54
 vendor/lib64/libstagefright_bufferpool@2.0.1.so|818140519ecaa3758f8ba3f46e1564a8e79c4c34
 vendor/lib64/libstagefright_foundation_vendor.so|8adfead78515d532b27121fcb182c09f9a4c73f5
-
-# Media (Dolby)
 vendor/etc/dolby/dax-default.xml|94bb8d58616ec2958afd9ff87ad24d7bc47c48e1
 vendor/lib64/libdeccfg.so|c73ddb6f9adc72b6d155c012243702fd08f0fde4
-
-# Media configs
 vendor/etc/media_codecs.xml|150747125d3dd447ff096d4c56ff0cb9fe92066d
 vendor/etc/media_codecs_c2.xml|8e3bc628f7d207c299772be662c7ea64d9d7e976
 vendor/etc/media_codecs_c2_sec.xml|dbf20dfee2867da0f3d0ba77e7d49894b02cf285
@@ -214,19 +158,13 @@ vendor/etc/media_codecs_dolby_audio.xml|8d2849a7dc9d24fad7499ab189780e5d2cea12b0
 vendor/etc/media_codecs_performance.xml|be8a6763019ea7b12f3fb539b238b9a8f813abb1
 vendor/etc/media_codecs_performance_c2.xml|a07e34f2b9ee43e8d035554c003cac3bf19e8aaa
 vendor/etc/media_profiles_V1_0.xml|48ef9dcb98be887beb9ce7104ad498ead029db85
-
-# Power
 vendor/bin/hw/android.hardware.power.samsung-service|f1167a5bc006bf86d2621fdca829000703e323a5
 vendor/lib64/hw/power.default.so|0ec83934af588eeea0bdc6fd65e82f0b4f11fd24
 vendor/lib64/libSamsngPowerHal.so|c67dc29be9e190a2676137f7585485d6eb60d83a
-
-# Radio (IMS)
 system/bin/charon|36c38dac071fded14c4af2ae543b4b80ca136660
 system/lib64/libcharon.so|d4b8efccd0df7f3e9ea5bca83aeb0f842ba67a0b
 system/lib64/libstrongswan.so|2e2f7819adc2f63629424af33ee77a610cc59acb
 system/lib64/libucsengine.system.so|83f5ef7c20f407eb14d080fa8ea7973061b5bb62
-
-# Security
 vendor/bin/hw/android.hardware.security.keymint-service|76c15880ef3d150b9f04a4c6b76b9de50730b27a
 vendor/etc/init/android.hardware.security.keymint-service.rc|23773b1927bb40dc185ea173766015236437b580
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service_V3.xml|5b78e6d72a64117ae2e0f093857740ab95067977
@@ -239,27 +177,7 @@ vendor/lib64/libkeymaster4_1support.so|16d37a055651b9f506ad51c4e20daaec8964c148
 vendor/lib64/libskeymint10device.so|b70a212f2d049b8febffe6f790cb7e31196f6e43
 vendor/lib64/libskeymint_cli.so|8efac49fbda27edd908974d39988a600865e9828
 vendor/lib64/vendor.samsung.hardware.keymint-V3-ndk.so|305c66a4183496338671e154434c5212e17dd3d7
-
-# Sensors
-vendor/bin/hw/android.hardware.sensors-service.multihal|df44f25f32a3cab5097f30c6e7baff4b01e918f2
-vendor/etc/init/android.hardware.sensors-service-multihal.rc|b3f1924a0090f8c2f5bf3cfe373556313c47c41c
-vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml|752c152eee5b25149c03dd9316f467e886d4ffc7
-vendor/lib64/sensors.grip.so|ef29caa447f94254416c62017219f1e5c1a47549
-vendor/lib64/sensors.inputvirtual.so|8278a330f81d1d39f91012e64ec99d3354bbac2f
-vendor/lib64/sensors.sensorhub.so|be8383e6ed34224c68fce840017b408a1c166abf
-
-# Sensors configs
-vendor/etc/sensors/hals.conf|d17102711f6ea143aa6f25cf0659f5baba4f8de7
-
-# USB
-vendor/bin/hw/android.hardware.usb-service.exynos|4746fdea5bb5278d399fb1fbe769614ba0b0cf63
-vendor/etc/init/android.hardware.usb-service.exynos.rc|7603487d136b27f1d4bc6c1b8c455ea64ad9fed3
-vendor/etc/vintf/manifest/android.hardware.usb-service.exynos.xml|22805e3e0b7aaa47d28e4f658980dc66d025c1b6
-
-# Vibrator
 vendor/lib64/hw/vibrator.default.so|7d1b2c256091266f127e83d4b4ac198547b5c115
-
-# Wi-Fi
 vendor/bin/hw/android.hardware.wifi-service|985a9dda99970c5e707d83a8c714997a8efb1209
 vendor/bin/hw/hostapd|ce170bc810ebcdbdc7eef4a4e8d5cfc1642aced2
 vendor/bin/hw/wpa_supplicant|4aff87453da52d67d03e4d156f0e9d6b2a2dd9a0
@@ -273,15 +191,10 @@ vendor/lib64/libwifi-hal.so|480bd8417dda364a6fc7d3d7601e9a6847f24086
 vendor/lib64/vendor.samsung.hardware.wifi.hostapd-V1-ndk.so|e86492dae64daca02b46be6cd7e5eba4951fb32a
 vendor/lib64/vendor.samsung.hardware.wifi.nan-V1-ndk.so|b755cf068c2e5161d29561659a49877c1caff773
 vendor/lib64/vendor.samsung.hardware.wifi.supplicant-V1-ndk.so|d60800ae1e544fafd34935bcbf6f4ae33e301a8f
-
-# Wi-Fi configs
 vendor/etc/wifi/init.insmod.wifi.cfg|5dafb426bc6c654f556b0ed7b501b8205af36340
 vendor/etc/wifi/p2p_supplicant_overlay.conf|2f7ec8ca13746f5a367c1f7fb61c8747b7fbfe9d
 vendor/etc/wifi/wpa_supplicant.conf|c371aa2cb09286c1c94d99ea6e1fe3b5d4e55842
 vendor/etc/wifi/wpa_supplicant_overlay.conf|387b5b1792892c08bbbef3e793c7579d8dbee007
-
-# Miscellaneous
-vendor/apex/com.android.hardware.audio.exynos.apex|6a21198b06a248b5b7c31b53cb265c0659988846
 vendor/apex/com.android.hardware.cas.lazy.apex|54cc889dec75b2421d89b8998a0598a82cd06c86
 vendor/apex/com.android.hardware.drm.clearkey.apex|b679cd06a983104bac3a6ade0dc03ec7274a163b
 vendor/apex/com.samsung.android.authfw.ta.preload.apex|19036d625cf7d8b148cd44e9b72160fc77aee328
@@ -459,7 +372,6 @@ vendor/etc/init/hostapd.android.rc|26c43d4e7f78acebf40c0be95d845ecdedb5eb38
 vendor/etc/init/hwc3.rc|ef81f8420a918587b903d485ded852da77e408d2
 vendor/etc/init/hyper-default-sec.rc|160a647e946e630a2adc85a481ab16f94bd79384
 vendor/etc/init/init.baseband.rc|1f4a77ca046d478cc3e712b0530012f17a5a3d1a
-vendor/etc/init/init.exynos.wifi.rc|df8f0ceb01acdeff5f29c53d6e873cbffb379874
 vendor/etc/init/init.fingerprint.rc|7f91a6b3eed60fd43fe320b5ef6a6cd0101f6af1
 vendor/etc/init/init.gflow.rc|8d5b122263c9a7edcf93c3f8bff3d1c9a2244fdd
 vendor/etc/init/init.gperf.rc|83e3730530b83b8b5bbb3cd3893b8fe57a86ea7c
@@ -824,9 +736,7 @@ vendor/firmware/volctrl.bin|d1f23b75d35245e8c480a14badc22348d7d332e3
 vendor/firmware/volumemonitor.bin|431d4474ac86f8343e22ba16739f4fe90806f442
 vendor/firmware/vts.bin|271d9bb2aaa49a215cb3fbdd14602ab0fa6bc5f1
 vendor/firmware/wez01_gts10fe.bin|90c87ff1f7b0ffdc779841f8f89108689787f072
-vendor/lib64/hw/android.hardware.soundtrigger3.exynos-impl.so|66ec12694d21e3b9e2231251022e8471cef7c3ef
 vendor/lib64/hw/libsecaudiohal_aidl.so|139131745cdd7e84e58225b749f630dfcc03cc93
-vendor/lib64/hw/libsthal_exynos.so|2dea68328aac11cf7360bf41a45e56c11b87d7b8
 vendor/lib64/aidl_libtlc_comm_iccc.so|cbeee02b8dfa620919a2b3dab98492d8c49c4bf1
 vendor/lib64/aidl_libtlc_direct_comm_iccc.so|41fb906090637f935614a590e038ba60b405952d
 vendor/lib64/gnss_aidl_lib.so|8099f1f81dd4b1dc5ca5aa2eb2f6a35f57aecdf8
@@ -834,16 +744,6 @@ vendor/lib64/libDLInterface.camera.samsung.so|f8f6169694799485a72517bb6af128e230
 vendor/lib64/libDeviceInfoProvider.so|9fffc9fac10d17835bad9ae3f101f6ad8932757d
 vendor/lib64/libEventFinder.camera.samsung.so|73e8802c7f235ca0d111cab025cab0a9e46d3f75
 vendor/lib64/libExtIRTA.so|7985bbd4fa7432dc0e0413e8f7da81b966c619ae
-vendor/lib64/libExynosC2ComponentRM.so|09bc9259bdded96c5132d89819978487006768c6
-vendor/lib64/libExynosC2ComponentStore.so|28e90fc44fd829c6c3bd01e1976fd0769fe64054
-vendor/lib64/libExynosC2H264Dec.so|487dc3c58f24ac56f787626bba23144949771957
-vendor/lib64/libExynosC2H264Enc.so|ccffe858573c7b4da6f9fd52ca8088d138f73167
-vendor/lib64/libExynosC2HevcDec.so|e4aed0a182de7cbc12c7bea5a7a7524b7e026188
-vendor/lib64/libExynosC2HevcEnc.so|fa43f2737f4ef952db97c6e915e4fbb0b76bc8d2
-vendor/lib64/libExynosC2Vp8Dec.so|04454e00834b445080b6a70f3a7f286c36fe1c81
-vendor/lib64/libExynosC2Vp8Enc.so|c74e7c5b5effb0ff607ff61a454228ecd206c7ee
-vendor/lib64/libExynosC2Vp9Dec.so|027ce50d3456f26fd7b3fa82346efbf4ff290296
-vendor/lib64/libExynosC2Vp9Enc.so|d20a91352cb6f32217b7f14a1bd3f2e8e5630763
 vendor/lib64/libFaceService.so|e842a31b5fe8e9bf3f11981cd9395d4b222a261b
 vendor/lib64/libFace_Landmark_API.camera.samsung.so|20395371871eeb4bde0ebc63446ba8e9878b1169
 vendor/lib64/libFastUWDistortionCorrection.camera.samsung.so|405a4faf619584f71f9db3766ca462a6f31e0d2b
@@ -912,8 +812,6 @@ vendor/lib64/libenn_wrapper.so|b40b6815bbcfedf0210c7ee7fa1c29d9cef7d9b3
 vendor/lib64/libepic_helper.so|19b54dabbb13cbc18210ddaf3bcf7f2a3656f3fa
 vendor/lib64/libevent_finder.uniplugin@1.0.so|ef0146386a5e5f36070c9de89cf0867706e3003c
 vendor/lib64/libexifa.camera.samsung.so|7473d7d75accfe6a11d697ef6b2787c7dbe33845
-vendor/lib64/libexynos_logger.so|fcb2dfc52242525ea2628a14a830606186eb80d6
-vendor/lib64/libexynos_profiler.so|469ce4345d2fbb844380efaad85be86d58731075
 vendor/lib64/libface_landmark.arcsoft.so|c3ca0d8c048da2211e3b25198c2855ceec319a6d
 vendor/lib64/libfast_uwdc.uniplugin@1.0.so|1361c6767d122cf24c68b0cca7cfcc06be6f32e9
 vendor/lib64/libfidoauthnr_v2.so|41dba85a96e1bf15c14f1996bbf219c3e264e759
